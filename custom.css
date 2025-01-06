@@ -1,0 +1,122 @@
+.quiz-container {
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#quiz h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.options-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1px solid #0077cc;
+  border-radius: 5px;
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.options-container button:hover {
+  background-color: #005fa3;
+}
+
+#next {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+#next:hover {
+  background-color: #218838;
+}
+
+.results-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.results-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0077cc;
+}
+
+.results-score {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.results-score span {
+  font-weight: bold;
+  color: #0077cc;
+}
+
+.results-questions {
+  margin-top: 20px;
+}
+
+.result-item {
+  background: #f9f9f9;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-left: 4px solid #0077cc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-question {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.result-answer {
+  color: #28a745;
+  margin-bottom: 5px;
+}
+
+.result-explanation {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.restart-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.restart-btn:hover {
+  background-color: #005fa3;
+}

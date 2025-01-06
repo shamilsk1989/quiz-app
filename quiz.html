@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Online Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <header>
+      <h3>Online Quiz</h3>
+      <nav>
+        <a href="how-to.html">How To</a>
+      </nav>
+    </header>
+
+    <main id="content" class="quiz-container">
+      <section id="quiz">
+        <h2 id="question">Question will appear here</h2>
+        <div id="options" class="options-container">
+          <!-- Options will be dynamically added here -->
+        </div>
+        <button id="next" onclick="nextQuestion()">Next</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Quiz Platform</p>
+    </footer>
+
+    <script src="quizScript.js"></script>
+  </body>
+</html>
